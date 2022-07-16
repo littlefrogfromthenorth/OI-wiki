@@ -2,7 +2,7 @@
 using namespace std;
 long long ans = 0;
 int n;
-int a[900009], t[900009];
+int a[500005], t[500005];
 
 void merge(int ll, int rr) {
   if (ll == rr) {
@@ -38,9 +38,6 @@ void merge(int ll, int rr) {
 }
 
 int main() {
-  ios::sync_with_stdio(0);
-  cin.tie(0);
-  cout.tie(0);
   cin >> n;
   for (int i = 1; i <= n; ++i) {
     cin >> a[i];
